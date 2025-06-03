@@ -40,7 +40,7 @@ const Index = () => {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white relative">
                   <img
-                    src="/src/assets/images/profile.jpg"
+                    src="/profile.jpg"
                     alt="Arvin Ebrahimpour"
                     className="absolute top-[-40px] right-[-20px] scale-150 object-cover transition-transform duration-300 ease-in-out transform hover:scale-125"
                   />
