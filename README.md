@@ -12,8 +12,14 @@ Follow these steps:
 # Install the necessary dependencies.
 npm i
 
-# Start the development server with auto-reloading and an instant preview.
+# Development server with auto-reloading and an instant preview.
 npm run dev
+
+# Build the app
+npm run build
+
+# Once app is built, to test it locally
+npm run preview
 ```
 
 This project is built with:
