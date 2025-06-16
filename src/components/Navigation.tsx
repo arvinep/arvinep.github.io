@@ -30,7 +30,7 @@ const Navigation = () => {
             ))}
           </div>
           <div className="flex items-center space-x-6">
-            <DownloadCV />
+{/*             <DownloadCV /> */}
             <a
               href="mailto:arvinep@gmail.com"
               target="_blank"
@@ -40,7 +40,7 @@ const Navigation = () => {
               <Mail size={20} />
             </a>
             <a
-              href="https://github.com/arvinep"
+              href="https://linkedin.com/in/arvinep"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-gray-500 transition-all duration-300 p-2 hover:bg-gray-50 rounded-full"
@@ -48,7 +48,7 @@ const Navigation = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/arvinep"
+              href="https://github.com/arvinep"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-gray-500 transition-all duration-300 p-2 hover:bg-gray-50 rounded-full"
