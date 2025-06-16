@@ -28,7 +28,7 @@ const Index = () => {
               <p className="text-2xl md:text-3xl text-gray-600 mb-12 font-light">
                 DevOps Engineer
                 <br />
-                AWS & Kubernetes | CI/CD Automation
+                Cloud & Kubernetes | CI/CD Automation
               </p>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto lg:mx-0 leading-relaxed font-light">
                 Crafting resilient, cloud-native infrastructure at scale. I streamline deployments, modernize legacy apps, and deliver secure, production-ready solutions that power innovation.
