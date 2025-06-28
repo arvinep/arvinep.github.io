@@ -8,14 +8,13 @@ const ExperienceSection = () => {
       company: 'Self-employed, Stuttgart',
       period: 'Sep 2023 - Present',
       description: [
-        "🗹 Provision and manage Amazon EKS clusters with auto - scaling and resource limits",
-        "🗹 Create custom Helm charts for deployments and rolling updates",
-        "🗹 Develop ArgoCD workflows to automate continuous delivery in Kubernetes",
-        "🗹 Build complete DevOps and DevSecOps CI / CD pipelines to automate and secure app deployments across dev, staging, and production",
-        "🗹 Automate AWS infra provisioning using custom Terraform modules integrated with Jenkins, GitHub Actions, and AWS CodePipeline",
+        "🗹 Provision and manage EKS clusters with auto-scaling",
+        "🗹 Build custom Helm charts and ArgoCD workflows for automated Kubernetes deployments",
+        "🗹 Develop CI/ CD pipelines using Jenkins, GitHub Actions, and AWS CodePipeline",
+        "🗹 Automate AWS infra as code with Terraform modules and integrate with CI tools",
         "🗹 Containerize legacy monoliths into microservices using Docker",
-        "🗹 Set up monitoring with Prometheus and Grafana; implement centralized logging with Fluentd",
-        "🗹 Write custom scripts for database migrations, rollbacks, and deployment automation"
+        "🗹 Set up monitoring with Prometheus and Grafana; implement centralized logging with Fluentd / EFK",
+        "🗹 Write scripts for database migrations, rollbacks, and deployments"
       ],
     },
     {
@@ -23,10 +22,10 @@ const ExperienceSection = () => {
       company: 'Porsche AG, Stuttgart',
       period: 'Oct 2020 - Aug 2023',
       description: [
-        "🗹 Owned API product roadmap and defined strategic vision across teams",
-        "🗹 Led backlog refinement, requirement gathering, and stakeholder alignment",
-        "🗹 Ensured API governance, versioning, and secure design standards",
-        "🗹 Collaborated cross-functionally with developers and business teams"
+        "🗹 Owned API roadmap and defined cross-team strategy",
+        "🗹 Led backlog grooming, requirements gathering, and stakeholder alignment",
+        "🗹 Enforced API governance, versioning, and security standards",
+        "🗹 Collaborated with developers and business stakeholders across teams"
       ],
     },
     {
@@ -34,44 +33,58 @@ const ExperienceSection = () => {
       company: 'Porsche AG, Stuttgart',
       period: 'Jul 2018 - Oct 2020',
       description: [
-        "🗹 Acted as a cloud solutions coach, guiding cross-functional development teams across various portfolios on AWS adoption and best practices.",
-        "🗹 Designed and implemented secure, scalable AWS cloud architectures for enterprise applications across multiple business units.",
-        "🗹 Led cloud migration initiatives, developing strategies and best practices to transition legacy workloads to AWS with minimal downtime.",
-        "🗹 Built and maintained Infrastructure as Code using Terraform and CloudFormation, enabling repeatable and version-controlled infrastructure deployments.",
-        "🗹 Containerized applications using Docker and orchestrated workloads on Kubernetes to support microservices and serverless architectures.",
-        "🗹 Developed and automated CI/CD pipelines using Jenkins, AWS CodePipeline, and GitHub Actions to accelerate development cycles and enforce DevSecOps practices.",
-        "🗹 Ensured cloud infrastructure met enterprise security and compliance standards through IAM policies, encryption, and secure networking.",
-        "🗹 Optimized system performance and cost-efficiency by monitoring resource utilization and refactoring underperforming services."
+        "🗹 Guided cross-functional teams on AWS adoption and best practices",
+        "🗹 Designed secure, scalable AWS architectures across multiple business units",
+        "🗹 Led cloud migrations with minimal downtime and strong strategic alignment",
+        "🗹 Built Infra as code using Terraform and CloudFormation ",
+        "🗹 Containerized apps with Docker and orchestrated microservices on ECS & Kubernetes",
+        "🗹 Automated CI / CD with Jenkins, GitHub Actions, and AWS CodePipeline",
+        "🗹 Ensured cloud security and compliance with IAM, encryption, and network policies",
+        "🗹 Improved performance and cost - efficiency by optimizing cloud workloads"
       ],
     },
     {
       title: 'Senior DevOps Engineer',
       company: 'Locafox GmbH, Berlin',
       period: 'Dec 2016 - Jun 2018',
-      description: ["🗹 Led the full migration of on-prem infrastructure to AWS, transitioning to a cloud-native, container-based architecture.",
-        "🗹 Implemented CaaS (Container as a Service) using Docker and Docker Swarm, enabling scalable, self-healing environments on ephemeral instances.",
-        "🗹 Designed and maintained Infrastructure as Code using custom Terraform modules.",
-        "🗹 Developed CI/CD pipelines with Jenkins (using Jenkinsfile and DSL jobs) to automate deployments across staging, demo, and production environments.",
-        "🗹 Enabled progressive delivery through automated canary and rolling deployments for microservices.",
-        "🗹 Built infrastructure blue/green deployment pipelines for zero-downtime releases.",
-        "🗹 Deployed high-availability MongoDB replica sets using Docker, ensuring data redundancy and fault tolerance.",
-        "🗹 Containerized legacy J2EE applications and web services, including Wildfly 10, Keycloak 2.5, and mod_cluster, to run efficiently in Docker environments.",
-        "🗹 Upgraded Elasticsearch clusters from version 2.4 to 5.4 and deployed them in Docker containers for improved scalability and maintainability.",
+      description: [
+        "🗹 Led full migration from on-prem to AWS with a container-based, cloud-native architecture",
+        "🗹 Implemented container as a service using Docker and Docker Swarm",
+        "🗹 Built and maintained Infra as code with custom Terraform modules",
+        "🗹 Developed CI/ CD pipelines in Jenkins(Jenkinsfile & DSL) for multi - env deployments",
+        "🗹 Enabled canary, rolling, and blue / green deployments for microservices",
+        "🗹 Containerized legacy J2EE apps running on Wildfly and using Keycloak",
+        "🗹 Deployed HA MongoDB replica sets and upgraded Elasticsearch clusters in Docker"
       ],
     },
     {
       title: 'Site Reliability Engineer',
-      company: 'Wayfair, Berlin',
+      company: 'Wayfair.com, Berlin',
       period: 'Jan 2016 - Dec 2016',
       description: [
-        "🗹 Production Systems Architect, design and deploy critical production systems ",
-        "🗹 Production Systems Design & Deployment",
-        "🗹 High Availability (HA) & Load Balancing (HAProxy, Nginx, Varnish, TwemProxy)",
-        "🗹 Caching & Data Storage (Redis, Memcached)",
-        "🗹 Messaging & Event Streaming (RabbitMQ, Kafka)",
-        "🗹 Distributed Computing & Coordination (Apache Storm, Zookeeper, Pacemaker)",
-        "🗹 Task Automation & Orchestration (Celery, Jenkins, Odin, Foreman, Puppet)",
-        "🗹 Log Management & Monitoring (ELK Stack – Elasticsearch, Logstash, Kibana)"
+        "🗹 Designed and deployed critical production systems with high availability and scalability",
+        "🗹 Implemented HA and load balancing using HAProxy, Nginx, Varnish, and TwemProxy",
+        "🗹 Managed caching layers(Redis, Memcached) and messaging systems(RabbitMQ, Kafka)",
+        "🗹 Built distributed systems with Apache Storm, Zookeeper, and Pacemaker",
+        "🗹 Automated tasks and orchestration with Celery, Jenkins, Foreman, Puppet, and Odin",
+        "🗹 Set up centralized logging and monitoring using the ELK stack(Elasticsearch, Logstash, Kibana)"
+      ],
+    },
+    {
+      title: 'Linux and VMware Engineer',
+      company: 'ZTE Corporation, Düsseldorf',
+      period: 'May 2015 - Dec 2015',
+      description: [
+        "🗹 Deployed Puppet to automate and orchestrate Linux infrastructure",
+        "🗹 Managed VMware vSphere 5.5 environments across multiple datacenters and clusters",
+        "🗹 Maintained IBM BladeCenter servers, Storwize v3700 storage, and SAN fabrics(Broadcom, Qlogic)",
+        "🗹 Led Linux hardening and infrastructure security initiatives",
+        "🗹 Automated system administration tasks using shell scripting",
+        "🗹 Created and maintained evergreen documentation for servers and systems",
+        "🗹 Set up a local YUM repository for centralized software and patch management",
+        "🗹 Contributed to storage reconfiguration project to resolve performance bottlenecks",
+        "🗹 Deployed SolarWinds Orion and Log & Event Manager for infrastructure monitoring",
+        "🗹 Performed vulnerability assessments using OpenVAS"
       ],
     }
   ];
