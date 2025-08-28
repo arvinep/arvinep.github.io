@@ -9,7 +9,7 @@ const ExperienceSection = () => {
       period: 'Sep 2023 - Present',
       description: [
         "🗹 Provision and manage EKS clusters with auto-scaling",
-        "🗹 Build custom Helm charts and ArgoCD workflows for automated Kubernetes deployments",
+        "🗹 Build custom Helm charts and use ArgoCD for automated Kubernetes deployments",
         "🗹 Develop CI/ CD pipelines using Jenkins, GitHub Actions, and AWS CodePipeline",
         "🗹 Automate AWS infra as code with Terraform modules and integrate with CI tools",
         "🗹 Containerize legacy monoliths into microservices using Docker",
