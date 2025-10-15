@@ -9,6 +9,9 @@ const ExperienceSection = () => {
       period: 'Sep 2023 - Present',
       description: [
         "🗹 Provision and manage EKS clusters with auto-scaling",
+        "🗹 Set up and manage Keycloak Identity & Access Management cluster on K8s, backed by RDS Postgres & managed by Terraform, federated to Azure AD",
+        "🗹 Forward Authentication Proxy Chain using Traefik + OAuth2-proxy + Keycloak",
+        "🗹 OpenWebUI deployment automation on K8s with predefined credential management for consistent user onboarding",
         "🗹 Build custom Helm charts and use ArgoCD for automated Kubernetes deployments",
         "🗹 Develop CI/ CD pipelines using Jenkins, GitHub Actions, and AWS CodePipeline",
         "🗹 Automate AWS infra as code with Terraform modules and integrate with CI tools",

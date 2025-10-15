@@ -4,13 +4,15 @@ import React from 'react';
 const SkillsSection = () => {
   const skills = [
     { name: 'Amazon Web Services (AWS)', level: 90 },
-    { name: 'Kubernetes', level: 90 },
+    { name: 'Kubernetes & EKS', level: 90 },
     { name: 'Terraform', level: 85 },
     { name: 'CI/CD Automation', level: 80 },
     { name: 'Docker', level: 75 },
     { name: 'Helm', level: 85 },
     { name: 'ArgoCD', level: 85 },
-    { name: 'AWS EKS', level: 85 }
+    { name: 'Keycloak IAM', level: 85 },
+    { name: 'Traefik', level: 85 },
+    { name: 'OAuth2-proxy', level: 85 }
   ];
 
   return (
