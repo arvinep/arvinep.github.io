@@ -11,70 +11,23 @@ const SkillMatrixSection = () => {
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-12 shadow-sm hover:shadow-md transition-all duration-300">
-            <div className="text-xl text-gray-700 leading-relaxed font-light space-y-6">
-              <div>
-                <h3 className="font-semibold text-gray-800">Cloud & Platforms</h3>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                  <li>AWS (EKS, EC2, RDS, ALB/NLB, S3, VPC, IAM)</li>
-                  <li>Kubernetes</li>
-                  <li>Docker</li>
-                  <li>Linux</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-gray-800">Infrastructure as Code</h3>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                  <li>Terraform (modular infra, multi-env pipelines)</li>
-                  <li>Helm</li>
-                  <li>Helmfile</li>
-                  <li>Secrets management</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-gray-800">CI/CD & Automation</h3>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                  <li>GitHub Actions</li>
-                  <li>ArgoCD</li>
-                  <li>Jenkins</li>
-                  <li>AWS CodePipeline</li>
-                  <li>GitOps</li>
-                  <li>Bash/Python scripting</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-gray-800">Identity, Security & Access Control</h3>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                  <li>Keycloak (K8s deployment, RDS backend, Terraform automation)</li>
-                  <li>Azure AD federation, SSO</li>
-                  <li>OAuth2/OIDC</li>
-                  <li>RBAC</li>
-                  <li>Traefik + OAuth2-Proxy forward-authentication chain</li>
-                  <li>TLS automation (Traefik + Let's Encrypt + DNS provider APIs)</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-gray-800">Monitoring & Observability</h3>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                  <li>Prometheus & VictoriaMetrics</li>
-                  <li>Loki Logs + Grafana Dashboards</li>
-                  <li>Tempo Traces</li>
-                  <li>Mimir Metrics (LGTM stack)</li>
-                  <li>Alertmanager</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-gray-800">Databases</h3>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                  <li>PostgreSQL (operations, migrations, rollbacks)</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-            </div>   
+            <p className="text-xl text-gray-700 leading-relaxed text-left font-light">
+              Cloud & Platforms
+              AWS (EKS, EC2, RDS, ALB/NLB, S3, VPC, IAM) • Kubernetes • Docker • Linux
+              Infrastructure as Code
+              Terraform (modular infra, multi-env pipelines) • Helm • Helmfile • Secrets management
+              CI/CD & Automation
+              GitHub Actions • ArgoCD • Jenkins • AWS CodePipeline • GitOps • Bash/Python scripting
+              Identity, Security & Access Control
+              Keycloak (K8s deployment, RDS backend, Terraform automation) • Azure AD federation, SSO
+              • OAuth2/OIDC • RBAC • Traefik + OAuth2-Proxy forward-authentication chain • TLS
+              automation Traefik+Letsencrypt+DNS provider APIs
+              Monitoring & Observability:
+              Prometheus & VictoriaMetrics • Loki Logs + Grafana Dashboards + Tempo Traces + Mimir
+              Metrics (LGTM stack) + Alertmanager
+              Databases
+              PostgreSQL (operations, migrations, rollbacks) • MongoDB
+            </p>
           </div>
         </div>
       </div>
