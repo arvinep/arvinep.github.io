@@ -3,6 +3,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import AboutSection from '../components/AboutSection';
 import SkillsSection from '../components/SkillsSection';
+import SkillMatrixSection from '../components/SkillMatrixSection';
 import ExperienceSection from '../components/ExperienceSection';
 import EducationSection from '../components/EducationSection';
 import CertificateSection from '../components/CertificateSection';
@@ -31,7 +32,7 @@ const Index = () => {
                 Cloud & Kubernetes | CI/CD Automation
               </p>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto lg:mx-0 leading-relaxed font-light">
-                Crafting resilient, cloud-native infrastructure at scale. I streamline deployments, modernize legacy apps, and deliver secure, production-ready solutions that power innovation.
+                Kubernetes. IAM. Automation. EKS, Keycloak, Terraform, Helm, Traefik. Production-ready by design.
               </p>
             </div>
 
@@ -55,6 +56,7 @@ const Index = () => {
 
       <AboutSection />
       <SkillsSection />
+      <SkillMatrixSection />
       <ExperienceSection />
       <EducationSection />
       <CertificateSection />
